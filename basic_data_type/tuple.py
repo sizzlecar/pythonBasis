@@ -35,6 +35,9 @@ print("tuple_d[0]", tuple_d[0])
 print("tuple_d[1:]", tuple_d[1:])
 print("tuple_d[-2:-1]", tuple_d[-2:-1])
 
+
+print("关婷婷！")
+
 # 修改元组
 # 元组中的元素值是不允许修改的，但是可以对元组进行连接组合
 
