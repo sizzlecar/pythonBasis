@@ -18,6 +18,12 @@ text = {
 }
 
 path = "C:\\Users\\Administrator\\Desktop\\new.txt"
-file = open(path, "wb")
-# 乱码
-pickle.dump(text, file)
+# 序列化
+# file = open(path, "wb+")
+# pickle.dump(text, file)
+
+# 反序列化
+file = open(path, "rb")
+data = pickle.load(file)
+print(data)
+file.close()
