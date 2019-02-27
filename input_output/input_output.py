@@ -31,10 +31,9 @@
 
 '''
 
-path = "C:\\Users\\Administrator\\Desktop\\new.txt"
+path = "D:\\pythonWorkSpace\\monkey-picking-peach\\source\\pygame"
 
-file = open(path, "w+")
-file.write("I am learning Python3 I/O! \n me too")
+file = open(path, "rb")
 file.close()
 
 # 文件对象的方法
