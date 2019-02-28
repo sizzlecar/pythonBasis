@@ -29,6 +29,9 @@ while True:
 turtle.end_fill()
 turtle.done()
 """
+
+# “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”.
+turtle.shape("turtle")
 print_turtle_pos(turtle)
 # 抬笔
 turtle.penup()
@@ -36,6 +39,8 @@ turtle.penup()
 turtle.goto((50, 50), None)
 # 落笔
 turtle.pendown()
+
+turtle.dot(20, "red")
 
 # 绘制一个长为100的正方形
 for x in range(4):
@@ -72,5 +77,8 @@ turtle.penup()
 turtle.goto((80, 60), None)
 turtle.pendown()
 turtle.forward(50)
+
+turtle.stamp()
+
 
 turtle.mainloop()
